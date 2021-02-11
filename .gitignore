@@ -1,3 +1,8 @@
+# Adding config.py file
+config.py
+# Adding the API Practice
+API_Practice.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
