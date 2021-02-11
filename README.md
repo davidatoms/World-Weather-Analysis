@@ -1,8 +1,6 @@
 # World-Weather-Analysis
 Using Python and APIs to give customers a tailored choice in choosing their city destination vacation.
 
-# World Weather Analysis
-
 ## Basic Project Plan
 _Task_ : collect and analyze weather data across cities worldwide
 _Purpose_ : PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
