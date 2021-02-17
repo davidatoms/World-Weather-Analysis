@@ -1,10 +1,14 @@
 # World-Weather-Analysis
 Using Python and APIs to give customers a tailored choice in choosing their city destination vacation.
 
+###### Written by: David Adams
+###### Written on: February 16, 2021
+###### Written with: Python3, Jupyter-Notebook, PyCharm
+
 ## Basic Project Plan
-_Task_ : collect and analyze weather data across cities worldwide
-_Purpose_ : PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
-_Method_ : Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
+* _Task_ : collect and analyze weather data across cities worldwide
+* _Purpose_ : PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
+* _Method_ : Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
 
 ## In-Depth Project Plan
 1. Collect the data by:
@@ -23,9 +27,13 @@ _Method_ : Create a Pandas DataFrame with 500 or more of the world's unique citi
 2. Exploratory Analysis with Visualization
     * Create scatter plots of the weather data for the following comparisons
       * Latitude versus Temperature
+      * ![Latitude vs. Temperature](weather_data/Max_Temp_vs_Latitude.png)
       * Latitude versus Humidity
+      * ![Latitude vs. Humidity](weather_data/Fig2.png)
       * Latitude versus Cloudiness
+      * ![Latitude vs. Cloudiness](weather_data/Fig3.png)
       * Latitude versus Wind Speed
+      * ![Latitude vs. Wind Speed](weather_data/Fig4.png)
     
     * Determine the correlations for the following weather data:
       * Latitude and Temperature
@@ -42,20 +50,4 @@ _Method_ : Create a Pandas DataFrame with 500 or more of the world's unique citi
 3. Visualize Travel Data
     * Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. 
     
-## Steps to follow to complete the analysis:
-1. Filter the Pandas DataFrame based on user inputs for minimum and maximum temperature.
-2. Create a heatmap for the new DataFrame.
-3. Find a hotel from the cities' coordinates using Google's Map and Places API, and Search Nearby feature.
-4. Store the name of the first hotel in the DataFrame.
-5. Add pop-up markers to the heatmap that display information about the city, current maxium temperature, and a hotel in the city.
-
-## Geography Notes:
-- Latitudes are horizontal around the globe.
-- Longitudes are vertical around the globe.
-- The equator marks degree 0.
-- Above the equator is positive to 90 degrees.
-- Below the equator is negative to -90 degrees.
-- The prime meridian represents zero meridian and splits the Earth into Eastern and Western Hemispheres.
-- All meridians east of the prime meridian are considered positive, after 0 degrees and up to 180 degrees.
-- All meridians west of the prime meridian are considered negative, after 0 degrees and up to -180 degrees.
-- Geographic coordinate system (GCS) references any point on Earth by its latitude and longitude coordinates.
+## Analysis
