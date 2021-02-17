@@ -36,21 +36,21 @@ Using Python and APIs to give customers a tailored choice in choosing their city
       * ![Latitude vs. Wind Speed](weather_data/Fig4.png)
     
     * Determine the correlations for the following weather data:
-      * Latitude and Temperature - "The correlation between the latitude and the maximum temperature is strong to very strong because the r-value is less than –0.7 for the Northern Hemisphere and greater than 0.7 for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler. Check the r-values for your plots."
-      * Latitude and Humidity - "The correlation between the latitude and percent humidity is very low because the r-value is less than 0.04 for the Northern and Southern Hemispheres for the plots shown here. This means that percent humidity is unpredictable due to changing weather patterns that can increase or decrease percent humidity. Check the r-values for your plots."
-      * Latitude and Cloudiness - "The correlation between the latitude and percent cloudiness is very low because the r-value is less than –0.09 for the Northern Hemisphere and less than –0.02 for the Southern Hemisphere for the plots shown here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness. Check the r-values for your plots."
-      * Latitude and Wind Speed - "The correlation between the latitude and wind speed is very low because the r-value is less  than –0.07 for the Northern Hemisphere and less than –0.3 for the Southern Hemisphere for the plots shown here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed. Check the r-values for your plots."
+      * *Latitude and Temperature* - "The correlation between the latitude and the maximum temperature is strong to very strong because the r-value is less than –0.7 for the Northern Hemisphere and greater than 0.7 for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler. Check the r-values for your plots."
+      * *Latitude and Humidity* - "The correlation between the latitude and percent humidity is very low because the r-value is less than 0.04 for the Northern and Southern Hemispheres for the plots shown here. This means that percent humidity is unpredictable due to changing weather patterns that can increase or decrease percent humidity. Check the r-values for your plots."
+      * *Latitude and Cloudiness* - "The correlation between the latitude and percent cloudiness is very low because the r-value is less than –0.09 for the Northern Hemisphere and less than –0.02 for the Southern Hemisphere for the plots shown here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness. Check the r-values for your plots."
+      * *Latitude and Wind Speed* - "The correlation between the latitude and wind speed is very low because the r-value is less  than –0.07 for the Northern Hemisphere and less than –0.3 for the Southern Hemisphere for the plots shown here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed. Check the r-values for your plots."
       
     * Create a series of heatmaps using the Google Maps and Places API that showcase the following:
       * Latitude and Temperature
-      * 
-      * Latitude and Humidity
-      * 
+      * ![Latitude and Temperature](latitude_vs_temp.png)
+    
       * Latitude and Cloudiness
-      * 
+      * ![Latitude and Cloudiness](latitude_vs_windspeed.png)
+      
       * Latitude and Wind Speed
-      * 
+      * ![Latitude and Wind Speed](latitude_vs_cloudiness.png)
       
 3. Visualize Travel Data
     * Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. 
-    * ![Heatmap and pop-up markers](/Vacation_Search/WeatherPy_vacation_map.png)
+    * ![Heatmap and pop-up markers](WeatherPy_travel_map.png)
